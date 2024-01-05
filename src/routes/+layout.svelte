@@ -1,6 +1,6 @@
 <script>
   import "../app.css";
-
+  import "$lib/preline.js";
   import { afterNavigate } from "$app/navigation";
  
 
