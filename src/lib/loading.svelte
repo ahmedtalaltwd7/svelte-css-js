@@ -1,5 +1,5 @@
 <script>
-  import { loading } from "$lib/loading";
+  import { loading } from "../lib/loading";
 </script>
 
 {#if $loading}
