@@ -1,13 +1,16 @@
 <script>
     import "../app.css";
 
-  import { afterNavigate } from "$app/navigation";
+  import "$app/navigation";
+  import { onMount } from "svelte";
+onMount(() => {
+  window.HSStaticMethods.autoInit();
+});
+ 
 
-
-
-  afterNavigate(() => {
-    window.HSStaticMethods.autoInit();
-  });
+  // afterNavigate(() => {
+  //   window.HSStaticMethods.autoInit();
+  // });
 
 
   </script>
