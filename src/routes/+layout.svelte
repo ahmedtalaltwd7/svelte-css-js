@@ -1,18 +1,21 @@
 <script>
-    import "../app.css";
+  import "../app.css";
 
-  import "$app/navigation";
-  import { onMount } from "svelte";
-onMount(() => {
-  window.HSStaticMethods.autoInit();
-});
+  import { afterNavigate } from "$app/navigation";
  
 
-  // afterNavigate(() => {
-  //   window.HSStaticMethods.autoInit();
-  // });
+ 
+// const { afterNavigate } = await import("$app/navigation");
+
+   
+
+afterNavigate(() => {
+    window.HSStaticMethods.autoInit(); 
+  }); 
 
 
-  </script>
-  
-  <slot />
+</script>
+
+
+
+<slot />
