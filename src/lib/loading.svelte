@@ -18,11 +18,11 @@
       height:20px;
       width: var(--size);
       animation: moveLoader 1s infinite alternate; */
-      top: 0;
-      left: 0;
+    top: 0;
+    left: 0;
     position: fixed;
     height: 10px;
-   
+
     background: red;
     animation-name: square;
     animation-duration: 5s;
