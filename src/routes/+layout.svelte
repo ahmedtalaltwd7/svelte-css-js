@@ -5,7 +5,7 @@
   import { navigating } from "$app/stores";
 
   import { loading } from "$lib/loading";
-  import Loading from "$lib/Loading.svelte";
+  import Loading from "$lib/loading.svelte";
 
   $: $loading = !!$navigating;
 
