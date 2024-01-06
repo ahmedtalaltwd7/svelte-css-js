@@ -5,7 +5,7 @@ function sleep(ms) {
 
   export async function load() {
     
-    await sleep(4000);
+    await sleep(2000);
 
     return {
       status: 200
