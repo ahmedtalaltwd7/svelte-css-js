@@ -5,7 +5,10 @@
 {#if $loading}
   <div />
 {/if}
+ 
 
+
+ 
 <style>
   div {
     /* --size: 100px;
@@ -39,3 +42,5 @@
     }
   }
 </style>
+
+ 

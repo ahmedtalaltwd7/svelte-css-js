@@ -12,7 +12,7 @@
   // const { afterNavigate } = await import("$app/navigation");
 
   afterNavigate(() => {
-    window.HSStaticMethods.autoInit();
+    window.HSStaticMethods.autoInit(); 
   });
 </script>
 
