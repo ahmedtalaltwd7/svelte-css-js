@@ -6,7 +6,7 @@
            makes a sticky, sweet treat with just a hint
            of salt that you'll keep coming back for.">
 
-           <title>Some title</title>
+           <title>Ahmed Talal – Full Stack Developer & AI Creator</title>
 
 
 
@@ -160,7 +160,7 @@
 
 
 <div class="min-h-screen flex justify-center items-center bg-sea1 bg-fixed bg-no-repeat bg-cover bg-center">
-    <h1 class="font-black text-6xl text-lime-300">Some Words</h1>
+    <h1 class="font-black text-6xl text-lime-300">Ahmed Talal – Full Stack Developer & AI Creator</h1>
   </div>
   <section class="scroll-reveal bg-lime-950">
     <div class="p-10">
