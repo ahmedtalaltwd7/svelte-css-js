@@ -160,7 +160,7 @@
 
 
 <div class="min-h-screen flex justify-center items-center bg-sea1 bg-fixed bg-no-repeat bg-cover bg-center">
-    <h1 class="font-black text-6xl text-lime-300">Ahmed Talal – Full Stack Developer & AI Creator</h1>
+    <h1 class="font-black text-5xl text-lime-200 text-wrap ">Ahmed Talal Full-Stack Developer & AI Creator</h1>
   </div>
   <section class="scroll-reveal bg-lime-950">
     <div class="p-10">
